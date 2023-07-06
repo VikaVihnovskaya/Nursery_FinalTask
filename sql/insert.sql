@@ -28,6 +28,6 @@ VALUES
     ('Ali','15.05.2022','sit, lie down, run'),
     ('Abu','02.01.2023','sit, lie down, run');
 
-INSERT INTO horses (name, date_birth, commands)
+INSERT INTO donkeys (name, date_birth, commands)
 VALUES
     ('Gray','11.07.2021','sit, lie down, run, speak');
