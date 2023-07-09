@@ -1,12 +1,16 @@
 package com.vicky;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Animals {
     private String name;
-    private List<String> commands;
-    private String date;
+    private List<String> commands = new ArrayList<>();
 
+    protected Animals(String name, List<String> commands) {
+        this.name = name;
+        this.commands = commands;
+    }
 
     public String getName() {
         return name;
@@ -22,13 +26,5 @@ public abstract class Animals {
 
     public void setCommands(List<String> commands) {
         this.commands = commands;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
     }
 }
